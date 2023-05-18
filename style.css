@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #9ca0de;
+}
+
+.list {
+    background: #fff;
+    width: 445px;
+    border-radius: 6px;
+    padding: 30px 25px 20px;
+}
+
+.list .new-todo {
+    width: 100%;
+    padding: 0.25rem 0;
+}
+.list .new-todo form {
+    display: flex;
+    align-items: center;
+}
+
+.list .new-todo form input {
+    height: 16px;
+    width: 350px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: transparent;
+    padding-left: 8px;
+    font-size: 12px;
+    color: #474747;
+}
+
+.list .new-todo form button {
+    size: 12px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    color: #ccc;
+    border: none;
+    cursor: pointer;
+}
+
+.list .new-todo form button:hover {
+    transition: ease-in-out 0.2s;
+    color: #9ca0de;
+
+}
+
+.list .item {
+    list-style: none;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 11px;
+    padding: 10px 13px;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.item .details {
+    display: flex;
+    align-items: center;
+    
+}
+
+.item .details img {
+    width: 43px;
+    height: 43px;
+    margin-right: 12px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.item .details span {
+    font-size: 1.13rem;
+}
+
+.item i {
+    color: #474747;
+    font-size: 1.13rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
